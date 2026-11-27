@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">dff4c041-c90d-4f34-8485-d0f9a68583b6</Single>
+        <Single Name="ParentGuid" Type="System.Guid">916fd8eb-f6fd-4b0b-9797-df1a72005da8</Single>
+        <Single Name="Name" Type="string">Task Configuration</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">ae1de277-a207-4a28-9efb-456c06bd52f3</Single>
+        <Null Name="EmbeddedTypeGuids" />
+      </Single>
+      <Single Name="Object" Type="{ae1de277-a207-4a28-9efb-456c06bd52f3}" Method="IArchivable">
+        <Single Name="StackSize" Type="uint">0</Single>
+        <Single Name="UseConfigurableStackSize" Type="bool">False</Single>
+        <List Name="TaskConfigurationList" Type="{75fc8bb3-c744-4e99-b6eb-bb2796e19500}" />
+        <List Name="SystemEventList" Type="{7be1d5a4-d68c-4bc6-a7e5-e42a0ab42a09}" />
+        <Null Name="ExternalEventList" />
+        <Single Name="enum_guid" Type="System.Guid">9a4f36c6-e8aa-56a6-b878-87402ae42975</Single>
+        <Single Name="jitter_distribution_guid" Type="System.Guid">296a6498-418d-5402-8035-47d22bdbffb6</Single>
+        <Single Name="task_struct_guid" Type="System.Guid">43dd0e56-24ba-506e-8070-65ad0b6e9d9b</Single>
+        <Single Name="task_config_info_guid" Type="System.Guid">7901b726-785d-5df9-98b7-0da4243b43ef</Single>
+        <Single Name="task_global_vars_guid" Type="System.Guid">89f725b0-65b9-5869-8edc-0ff70b5d2f27</Single>
+        <Single Name="setup_call_pou_guid" Type="System.Guid">4dac88c0-f05c-5606-a9e4-b1cb4a64e8dc</Single>
+        <Single Name="sys_setup_pou_guid" Type="System.Guid">e8cc974c-57cd-5c8b-a0ff-550e26e82cf0</Single>
+        <Single Name="profiler_global_vars_guid" Type="System.Guid">f288edf6-1414-5e65-bd85-d1731aff7c3f</Single>
+        <Single Name="profiler_init_code_guid" Type="System.Guid">ecce5d10-ae91-5ab4-b9fa-28acd8cc57ee</Single>
+        <Single Name="profiler_cycle_code_guid" Type="System.Guid">c31c81e9-da6d-5fb7-80af-87a4d335ee7a</Single>
+        <Single Name="profiler_fb_guid" Type="System.Guid">26381a67-6d12-5e03-961d-8fe8ee4bf10f</Single>
+        <Single Name="profiler_method_reset_guid" Type="System.Guid">a0bac9ee-02a0-5af0-b6ec-43793d34c29c</Single>
+        <Single Name="profiler_method_starttiming_guid" Type="System.Guid">8972572e-7bd0-504d-a91d-f8ec10feca7e</Single>
+        <Single Name="profiler_method_stoptiming_guid" Type="System.Guid">467671ee-c1a8-5817-859c-90b2a8f17a0f</Single>
+        <Single Name="profiler_iectaskgetprofiling_guid" Type="System.Guid">8913349e-f829-56f8-8101-3092004f69ac</Single>
+        <Null Name="alSysEventList" />
+        <List2 Name="alTaskGroups">
+          <Single Type="{609a42d4-f974-4041-8548-f80e229ca5ed}" Method="IArchivable">
+            <Single Name="Groupname" Type="string">IEC-Tasks</Single>
+            <Single Name="Core" Type="int">-2</Single>
+            <Single Name="DefaultGroup" Type="bool">True</Single>
+            <Single Name="Editable" Type="bool">False</Single>
+          </Single>
+        </List2>
+        <Single Name="sysevents_global_vars_guid" Type="System.Guid">7f0b6c2f-f184-5d0b-87d3-ccd1d902426d</Single>
+        <Single Name="sysevents_functionsblock_guid" Type="System.Guid">15da1670-509c-5bff-8411-ac63020399f7</Single>
+        <Single Name="sysevents_fbinit_method_guid" Type="System.Guid">232a4d6a-a396-51b4-b557-57228fb7e5d7</Single>
+        <Single Name="sysevents_fbexit_method_guid" Type="System.Guid">881f8bd9-8e44-58fa-b37c-3d3cb8c85a65</Single>
+        <Single Name="sysevents_eventcallback_method_guid" Type="System.Guid">c0481c07-92ca-54e4-a74d-27d2ba2c1009</Single>
+        <Single Name="sysevents_resetget_property_guid" Type="System.Guid">bee5f08f-fd38-5eff-b9b1-be0f933af65c</Single>
+        <Array Name="parent_tasks" Type="System.Guid" />
+        <Single Name="device_app" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">916fd8eb-f6fd-4b0b-9797-df1a72005da8</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>

@@ -1,0 +1,739 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">a3bcd400-7558-4408-ad16-17ba0900871f</Single>
+        <Single Name="ParentGuid" Type="System.Guid">f4bfbf61-f4f1-40e1-8e57-863bf447d8f8</Single>
+        <Single Name="Name" Type="string">Local_IO</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">0f5fe9f2-6f78-44e8-be24-5879c0c99599</Single>
+            </Key>
+            <Value>
+              <Single Type="{0f5fe9f2-6f78-44e8-be24-5879c0c99599}" Method="IArchivable">
+                <Single Name="ModuleType" Type="int">50002</Single>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">e9159722-55bc-49e5-8034-fbd278ef718f</Single>
+        <Null Name="EmbeddedTypeGuids" />
+      </Single>
+      <Single Name="Object" Type="{e9159722-55bc-49e5-8034-fbd278ef718f}" Method="IArchivable">
+        <Single Name="VisibleInterfaceName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+          <Single Name="Namespace" Type="string">local</Single>
+          <Single Name="Identifier" Type="string">DrivePool</Single>
+          <Single Name="Default" Type="string">Local_IO</Single>
+        </Single>
+        <Single Name="ModuleType" Type="ushort">50002</Single>
+        <Single Name="Interface" Type="string">IO Bus</Single>
+        <Single Name="Role" Type="{6827a808-5967-49c4-a827-10f6c446e075}">Parent</Single>
+        <Single Name="ConnectorId" Type="int">4</Single>
+        <Single Name="Hostpath" Type="int">-1</Single>
+        <Single Name="Adapters" Type="{1da2f14a-1c63-4268-9171-3b6869b8ccd6}" Method="IArchivable">
+          <List Name="Adapters" Type="System.Collections.ArrayList">
+            <Single Type="{48ed2d53-8733-46f1-bf62-13f190518ba8}" Method="IArchivable">
+              <Array Name="DefaultModules" Type="{05ee0b98-6639-4276-bc32-b75578b819ef}">
+                <Single Type="{959f677a-b4e4-4930-8d88-b3b6b116d4d6}" Method="IArchivable">
+                  <Single Name="ModuleId" Type="string">IO</Single>
+                  <Single Name="Type" Type="int">4096</Single>
+                  <Single Name="Id" Type="string">1100 0011</Single>
+                  <Single Name="Version" Type="string">3.5.21.20</Single>
+                  <Single Name="BaseName" Type="string">$(DeviceName)</Single>
+                </Single>
+              </Array>
+              <Array Name="Modules" Type="System.Guid">
+                <Single Type="System.Guid">0c621fd6-cc86-43ad-9f67-c5862127f0b7</Single>
+              </Array>
+            </Single>
+          </List>
+        </Single>
+        <Single Name="HostParameterSet" Type="{abc12bfe-e34e-4b2c-a058-42c6e7e03a13}" Method="IArchivable">
+          <List2 Name="Params">
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393250</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q0Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q0Map</Single>
+                  <Single Name="Default" Type="string">Q0 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393250</Single>
+                <Single Name="Value" Type="string">1</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">1</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">0</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393251</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q1Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q1Map</Single>
+                  <Single Name="Default" Type="string">Q1 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393251</Single>
+                <Single Name="Value" Type="string">2</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">2</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">1</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393252</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q2Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q2Map</Single>
+                  <Single Name="Default" Type="string">Q2 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393252</Single>
+                <Single Name="Value" Type="string">3</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">3</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">2</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393253</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q3Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q3Map</Single>
+                  <Single Name="Default" Type="string">Q3 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393253</Single>
+                <Single Name="Value" Type="string">4</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">4</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">3</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393254</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q4Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q4Map</Single>
+                  <Single Name="Default" Type="string">Q4 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393254</Single>
+                <Single Name="Value" Type="string">5</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">5</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">4</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393255</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q5Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q5Map</Single>
+                  <Single Name="Default" Type="string">Q5 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393255</Single>
+                <Single Name="Value" Type="string">6</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">6</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">5</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393256</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q6Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q6Map</Single>
+                  <Single Name="Default" Type="string">Q6 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393256</Single>
+                <Single Name="Value" Type="string">7</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">7</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">6</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393257</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q7Map.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输出功能
+1：数据bit0；2：数据bit1；3：数据bit2；4：数据bit3；5：数据bit4；6：数据bit5；7：数据bit6；8：数据bit7；
+9：0轴脉冲；10：0轴方向；11：1轴脉冲；12：1轴方向；13：2轴脉冲；14：2轴方向；15：3轴脉冲；16：3轴方向；
+25：PWM0输出；26：PWM1输出；27：PWM2输出；28：PWM3输出；</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">Q7Map</Single>
+                  <Single Name="Default" Type="string">Q7 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393257</Single>
+                <Single Name="Value" Type="string">8</Single>
+                <Single Name="Type" Type="string">BYTE</Single>
+                <Single Name="Default" Type="string">8</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:BYTE</Single>
+              <Single Name="IndexInDevDesc" Type="long">7</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393260</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I0Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I0Filter</Single>
+                  <Single Name="Default" Type="string">I0 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393260</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">8</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393261</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I1Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I1Filter</Single>
+                  <Single Name="Default" Type="string">I1 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393261</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">9</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393262</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I2Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I2Filter</Single>
+                  <Single Name="Default" Type="string">I2 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393262</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">10</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393263</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I3Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I3Filter</Single>
+                  <Single Name="Default" Type="string">I3 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393263</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">11</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393264</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I4Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I4Filter</Single>
+                  <Single Name="Default" Type="string">I4 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393264</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">12</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393265</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I5Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I5Filter</Single>
+                  <Single Name="Default" Type="string">I5 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393265</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">13</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393266</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I6Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I2Filter</Single>
+                  <Single Name="Default" Type="string">I6 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393266</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">14</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393267</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I7Filter.Desc</Single>
+                  <Single Name="Default" Type="string">0:no, 1:0.2us，2:0.4us，3:0.8us，4:1.6us，5:3.2us，6:6.4us，7:12.8us、
+8:0.2ms，9:0.4ms，10:0.8ms，11:1.6ms，12:3.2ms，13:6.4ms，14:12.8ms</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">I7Filter</Single>
+                  <Single Name="Default" Type="string">I7 滤波时间</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393267</Single>
+                <Single Name="Value" Type="string">13</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">13</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">15</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393270</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI0mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI0mapping</Single>
+                  <Single Name="Default" Type="string">I0 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393270</Single>
+                <Single Name="Value" Type="string">1</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">1</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">16</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393271</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI1mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI1mapping</Single>
+                  <Single Name="Default" Type="string">I1 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393271</Single>
+                <Single Name="Value" Type="string">2</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">2</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">17</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393272</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI0mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI2mapping</Single>
+                  <Single Name="Default" Type="string">I2 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393272</Single>
+                <Single Name="Value" Type="string">3</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">3</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">18</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393273</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI3mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI3mapping</Single>
+                  <Single Name="Default" Type="string">I3 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393273</Single>
+                <Single Name="Value" Type="string">4</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">4</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">19</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393274</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI4mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI3mapping</Single>
+                  <Single Name="Default" Type="string">I4 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393274</Single>
+                <Single Name="Value" Type="string">5</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">5</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">20</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393275</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI5mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI5mapping</Single>
+                  <Single Name="Default" Type="string">I5 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393275</Single>
+                <Single Name="Value" Type="string">6</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">6</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">21</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393276</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI6mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI6mapping</Single>
+                  <Single Name="Default" Type="string">I6 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393276</Single>
+                <Single Name="Value" Type="string">7</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">7</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">22</Single>
+            </Single>
+            <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
+              <Single Name="Id" Type="uint">393277</Single>
+              <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+              <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
+                <Null Name="FilterFlags" />
+                <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI7mapping.Desc</Single>
+                  <Single Name="Default" Type="string">0：无输入功能 1:I0; 2:I1; 3:I2; 
+4:I3; 5:I4; 6:I5; 7:I6; 8:I7;</Single>
+                </Single>
+                <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
+                  <Single Name="Namespace" Type="string">local</Single>
+                  <Single Name="Identifier" Type="string">InternalI7mapping</Single>
+                  <Single Name="Default" Type="string">I7 映射</Single>
+                </Single>
+                <Single Name="Identifier" Type="string">393277</Single>
+                <Single Name="Value" Type="string">8</Single>
+                <Single Name="Type" Type="string">WORD</Single>
+                <Single Name="Default" Type="string">8</Single>
+              </Single>
+              <Single Name="ParamType" Type="string">std:WORD</Single>
+              <Single Name="IndexInDevDesc" Type="long">23</Single>
+            </Single>
+          </List2>
+          <Single Name="LmGuid" Type="System.Guid">f1864597-584a-5f30-ae49-131ad49b282a</Single>
+          <Null Name="Sections" />
+          <Single Name="InitOnOnlineChange" Type="bool">False</Single>
+          <Single Name="AlwaysMapping" Type="bool">False</Single>
+          <Null Name="EditorName" />
+          <Single Name="AlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+          <Single Name="CreateBitChannels" Type="bool">False</Single>
+        </Single>
+        <Single Name="BusCycleTaskGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+        <Single Name="DriverInfo" Type="{4f958885-8d0a-4b58-83b6-29cfd1c9cfca}" Method="IArchivable">
+          <List Name="RequiredLibs" Type="System.Collections.ArrayList" />
+          <Null Name="RequiredTasks" />
+          <Single Name="NeedsBusCycle" Type="bool">True</Single>
+          <Single Name="BusCycleTask" Type="string" />
+          <Single Name="IoApp" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+          <Single Name="IoAppSet" Type="bool">False</Single>
+          <Array Name="PositionIds" Type="long" />
+          <Single Name="UseSlowestTask" Type="bool">False</Single>
+          <Single Name="NeedsBusCycleBeforeRead" Type="bool">False</Single>
+          <Single Name="GenerateForceVariables" Type="bool">False</Single>
+          <Single Name="EnableDiagnosis" Type="bool">False</Single>
+          <Single Name="AdditionalParameterSetting" Type="uint">0</Single>
+          <Single Name="ShowWarningsAsErrors" Type="bool">False</Single>
+          <Single Name="DiagnosisCheckboxMode" Type="{96a7290c-b036-44e1-a965-c279cddf134b}">Enabled</Single>
+          <Single Name="SkipOverlapCheck" Type="bool">False</Single>
+          <Single Name="SymbolicAccessMode" Type="{866ccdec-84a7-4590-aeab-383c7bd79437}">Disabled</Single>
+          <Single Name="DeviceScanSupported" Type="bool">False</Single>
+          <Single Name="DeviceNominateSupported" Type="bool">False</Single>
+          <Single Name="DeviceIdentifySupported" Type="bool">False</Single>
+          <Single Name="DeviceUploadDescriptionSupported" Type="bool">False</Single>
+          <Single Name="UpdateIOsInStop" Type="bool">False</Single>
+          <Single Name="StopResetBehaviourSetting" Type="{f333ad6d-dc68-4baa-a3a3-20be74eb2e18}">KeepCurrentValues</Single>
+          <Single Name="StopResetBehaviourUserProgram" Type="string" />
+          <Single Name="BusCycleTaskGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+          <Single Name="PlcAlwaysMapping" Type="bool">False</Single>
+          <Single Name="PlCAlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+        </Single>
+        <List Name="CustomItems" Type="{7d23305a-7bb9-46e6-b58b-01ea5694add1}" />
+        <Single Name="ModuleId" Type="int">-1</Single>
+        <Null Name="IoUpdateTask" />
+        <List Name="AdditionalInterfaces" Type="System.Collections.ArrayList" />
+        <List Name="Constraints" Type="System.Collections.ArrayList" />
+        <Single Name="hideInStatusPage" Type="bool">False</Single>
+        <Single Name="updateAllowed" Type="bool">True</Single>
+        <Single Name="fixedInputAddress" Type="string" />
+        <Single Name="fixedOutputAddress" Type="string" />
+        <Single Name="DownloadParamsDevDescOrder" Type="bool">False</Single>
+        <List Name="AllowOnlyDevices" Type="System.Collections.ArrayList" />
+        <Single Name="InitialStatusFlag" Type="uint">1</Single>
+        <Single Name="UseBlobInitConst" Type="bool">False</Single>
+        <Single Name="AlwaysMappingMode" Type="{9d1b24fb-5845-4978-8458-564ca7830fec}">OnlyIfUnused</Single>
+        <Single Name="ConnectorGroup" Type="uint">0</Single>
+        <Array Name="AllowedPages" Type="string" />
+        <Single Name="AlwaysMapping" Type="bool">False</Single>
+        <Single Name="Client" Type="string" />
+        <Single Name="MaxInputSize" Type="uint">0</Single>
+        <Single Name="MaxOutputSize" Type="uint">0</Single>
+        <Single Name="MaxInOutputSize" Type="uint">0</Single>
+        <Single Name="ClientTypeGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+        <Single Name="ClientConnectorInterface" Type="string" />
+        <Single Name="ClientConnectorId" Type="int">-1</Single>
+        <Single Name="AlwaysMappingDisabled" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">f4bfbf61-f4f1-40e1-8e57-863bf447d8f8</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+      </Array>
+      <Single Name="Index" Type="int">3</Single>
+    </Single>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">f10c3e6f-df59-4f1d-b3d9-ede40f15ccf3</Single>
+        <Single Name="ParentGuid" Type="System.Guid">916fd8eb-f6fd-4b0b-9797-df1a72005da8</Single>
+        <Single Name="Name" Type="string">Claw_PGC_Claw_Sta</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">694d5adf-c505-4f09-bbff-977357c041e8</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">2bef0454-1bd3-412a-ac2c-af0f31dbc40f</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid" />
+      </Single>
+      <Single Name="Object" Type="{2bef0454-1bd3-412a-ac2c-af0f31dbc40f}" Method="IArchivable">
+        <Single Name="UniqueIdGenerator" Type="string">0</Single>
+        <List Name="TextList" Type="System.Collections.ArrayList" />
+        <List Name="Languages" Type="System.Collections.ArrayList" />
+        <Single Name="GuidInit" Type="System.Guid">545e8569-9878-4d48-b786-d3bfb5fdc789</Single>
+        <Single Name="GuidReInit" Type="System.Guid">38a8e0fb-90fa-4aee-b2b7-74489765444e</Single>
+        <Single Name="GuidExitX" Type="System.Guid">1c8e0c7d-20e3-44d3-924c-1708d395d53a</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">694d5adf-c505-4f09-bbff-977357c041e8</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">本机-3-机械臂-本体</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
